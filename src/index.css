@@ -1,0 +1,155 @@
+/* .card{
+    border: 1px solid hsl(0, 0rem, 48%);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.1rem hsl(0, 0%, 5%);
+    width: 250px;
+    display: inline-block;
+    
+}
+.card .card-pic{
+    border-radius: 50%;
+    border: 0.1rem solid hsl(0, 0%, 29%);
+    box-shadow: 0.1rem 0.1rem 0.1rem hsl(0, 0%, 5%);
+}
+.student{
+    border: 0.1em solid hsl(0, 1%, 24%);
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0.1rem 0.1rem 0.1rem hsl(0, 0%, 5%);
+}
+.student p{
+    margin: 0;
+}
+.counter-container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter-display{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.counter-button{
+    width:  150px;
+    height: 50px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin:  0px 5px;
+    background-color: hsl(8, 74%, 44%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button:hover{
+    background-color: hsl(8, 74%, 34%);
+}
+.color-picker-constainer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    border: 3px solid hsl(0, 0%, 56%);
+    margin: 5%;
+}
+.color-box{
+    width: 50px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid hsl(0, 0%, 56%);
+    margin:  9px 5px;
+}
+
+.select-color{
+    padding-top: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+} */
+body{
+    background-color: hsl(0, 0%, 10%);
+ }
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+
+}
+.add-button{
+    background-color: hsl(125, 69%, 65%);
+}
+.add-button:hover{
+    background-color: hsl(101, 47%, 32%);
+
+}
+.delete-button{
+    background-color: hsl(0, 89%, 54%);
+}
+.delete-button:hover{
+    background-color: hsl(9, 65%, 32%);
+}
+.move-button{
+    background-color: hsl(193, 65%, 67%);
+    border: black;
+}
+.move-button:hover{
+    background-color: hsl(194, 73%, 56%);
+
+}
+input[type = "text"]{
+font-size: 1.6rem;
+padding: 10px;
+border: 2px solid hsl(0, 100%, 0%,  50%);
+border-radius: 5px;
+color: hsla(0, 0%, 0%, 0.5);
+}
+ol{
+    padding: 0 ;
+    /* border-radius: 5px;
+    color: hsla(0, 4%, 22%, 0.541); */
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsla(60, 100%, 99%, 0.872);
+    margin-bottom:10px ;
+    border: 3px solid hsla(0, 5%, 79%, 0.84);
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+}
+.text{
+     flex:1 ; 
+}
+.delete-button, .move-button{
+ padding: 8px 12px;
+ font-size: 1.4rem;
+ margin-left: 10px;
+
+}
